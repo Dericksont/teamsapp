@@ -1,0 +1,23 @@
+{
+    "appName": "teamsapp",
+    "projectId": "d30ed72a-2e49-48a4-821b-8819f160eedd",
+    "currentEnv": "default",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "capabilities": [
+            "Tab"
+        ],
+        "azureResources": [
+            "function"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-local-debug",
+            "fx-resource-frontend-hosting",
+            "fx-resource-function",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-simple-auth"
+        ]
+    }
+}
