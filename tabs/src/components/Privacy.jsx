@@ -8,26 +8,26 @@ import * as microsoftTeams from "@microsoft/teams-js";
 class Privacy extends React.Component {
 
   
-  openPopup = () =>{
-    const taskModuleInfo = {
+  // openPopup = () =>{
+  //   const taskModuleInfo = {
 
-      title: "My Teams App",
+  //     title: "My Teams App",
    
-      url : "https://my-teams-app.herokuapp.com/",
+  //     url : "https://my-teams-app.herokuapp.com/",
    
-      width : 1000,
+  //     width : 1000,
    
-      height: 500
+  //     height: 500
    
     
    
-     };
-    microsoftTeams.tasks.startTask(taskModuleInfo);
-  }
+  //    };
+  //   microsoftTeams.tasks.startTask(taskModuleInfo);
+  // }
   render() {
     return (
       <div>
-        <a onClick={this.openPopup}>Click Here</a>
+        {/* <a onClick={this.openPopup}>Click Here</a> */}
       </div>
     );
   }
